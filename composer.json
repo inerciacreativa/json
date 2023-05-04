@@ -1,12 +1,13 @@
 {
-    "name": "inerciacreativa/html",
+    "name": "inerciacreativa/json",
     "description": "PHP class for working with JSON objects",
-    "type": "project",
+    "type": "library",
     "keywords": [
         "php",
-        "html"
+        "json"
     ],
     "license": "MIT",
+    "homepage": "https://inerciacreativa.com",
     "authors": [
         {
             "name": "Jose Cuesta",
@@ -15,8 +16,12 @@
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/inerciacreativa/json/issues?state=open",
+        "source": "https://github.com/inerciacreativa/json"
+    },
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.0",
         "ext-simplexml": "*"
     },
     "require-dev": {
@@ -34,6 +39,7 @@
             "IC\\Json\\Tests\\": "tests/"
         }
     },
+    "prefer-stable": true,
     "scripts": {
         "phpunit": "vendor/bin/phpunit -c phpunit.xml.dist",
         "phpstan": "vendor/bin/phpstan analyse -c phpstan.neon.dist"
