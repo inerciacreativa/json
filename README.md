@@ -73,4 +73,4 @@ composer phpstan
 The IC JSON is free software. It is released under the terms of the MIT License.
 Please see [`LICENSE`](./LICENSE) for more information.
 
-Maintained by [Inercia Creativa](https://www.inerciacreativa.com/).
+Maintained by [Inercia Creativa](https://inerciacreativa.com/).
